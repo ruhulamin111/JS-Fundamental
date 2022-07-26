@@ -28,3 +28,15 @@ footballTeam.unshift('Ronal Dinho');
 // array remove first element 
 footballTeam.shift();
 
+// comparision 
+var cash = 50000;
+var shopping = 2000;
+var rent = 1000;
+var food = 500;
+var compare = food > rent;
+var compare1 = food < rent;
+var compare2 = shopping == cash;
+var compare3 = shopping != cash;
+var compare4 = rent && food;
+var compare5 = rent || food;
+
