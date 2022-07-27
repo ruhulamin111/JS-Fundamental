@@ -37,6 +37,67 @@ var compare = food > rent;
 var compare1 = food < rent;
 var compare2 = shopping == cash;
 var compare3 = shopping != cash;
-var compare4 = rent && food;
-var compare5 = rent || food;
 
+if (shopping > cash) {
+}
+if (shopping < cash) {
+}
+
+// conditional decition 
+var money = 30000;
+var burger = 200;
+var pizza = 500;
+if (money > burger) {
+    // console.log('i will eat the burger');
+}
+else {
+    // console.log('i have insufficient money');
+}
+if (pizza < money) {
+    // console.log('i will eat the pizza');
+}
+else {
+    // console.log('i have insufficient money');
+}
+if (money > burger && pizza < money) {
+    // console.log('i will eat both pizza and burger');
+}
+else {
+    // console.log('it is time to go');
+}
+if (money < burger || pizza < money) {
+    // console.log('i will eat pizza');
+}
+else {
+    // console.log('it is time to go');
+}
+
+// nested condition 
+var fresh = true;
+if (money > burger) {
+    if (fresh == true) {
+        // console.log('then i will eat');
+    }
+    else {
+        // console.log('i never eat this item');
+    }
+}
+else {
+    // console.log('i have no money');
+}
+
+var umbrella = 2000;
+var tissue = 200;
+var budget = 3000;
+if (umbrella >= tissue) {
+    // console.log('i purchase the tissue');
+}
+else {
+    // console.log('i do not purchase the tissue');
+}
+if (umbrella <= tissue) {
+    // console.log('i purchase the tissue');
+}
+else {
+    // console.log('i do not purchase the tissue');
+}
